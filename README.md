@@ -57,11 +57,11 @@
 
 	+ [Python 2](https://www.python.org/downloads/): https://www.python.org/downloads/
 	
-	Được cài đặt sẵn trên hệ điều hành.
+		Được cài đặt sẵn trên hệ điều hành.
 
 	+ [Pip](https://pypi.python.org/pypi/pip): https://pypi.python.org/pypi/pip
 	
-	Có thể sử dụng lệnh cài đặt:
+		Có thể sử dụng lệnh cài đặt:
 
 	```bash
 
@@ -71,7 +71,7 @@
 
 	+ [esptool](https://pypi.python.org/pypi/esptool): https://pypi.python.org/pypi/esptool
 	
-	Có thể sử dụng lệnh cài đặt:
+		Có thể sử dụng lệnh cài đặt:
 
 	```bash
 
@@ -81,7 +81,7 @@
 	
 	+ [Pyserial](https://pypi.python.org/pypi/pyserial/2.7): https://pypi.python.org/pypi/pyserial/2.7
 	
-	Có thể sử dụng lệnh cài đặt:
+		Có thể sử dụng lệnh cài đặt:
 	
 	```bash
 	
