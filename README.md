@@ -53,12 +53,14 @@
 
 * Các phần mềm cần chuẩn bị cho quá trình nạp firmware cho ESP8266 V1 trên hệ điều hành Ubuntu:
 
-	+ [Arduino IDE](https://www.arduino.cc/en/main/software: https://www.arduino.cc/en/main/software
+	+ [Arduino IDE](https://www.arduino.cc/en/main/software): https://www.arduino.cc/en/main/software
 
-	+ [Python 2](https://www.python.org/downloads/): https://www.python.org/downloads/ 
-	(được cài đặt sẵn trên hệ điều hành).
+	+ [Python 2](https://www.python.org/downloads/): https://www.python.org/downloads/
+	
+	Được cài đặt sẵn trên hệ điều hành.
 
-	+ [Pip](https://pypi.python.org/pypi/pip): https://pypi.python.org/pypi/pip.
+	+ [Pip](https://pypi.python.org/pypi/pip): https://pypi.python.org/pypi/pip
+	
 	Có thể sử dụng lệnh cài đặt:
 
 	```bash
@@ -67,7 +69,8 @@
 
 	```
 
-	+ [esptool](https://pypi.python.org/pypi/esptool): https://pypi.python.org/pypi/esptool.
+	+ [esptool](https://pypi.python.org/pypi/esptool): https://pypi.python.org/pypi/esptool
+	
 	Có thể sử dụng lệnh cài đặt:
 
 	```bash
@@ -76,7 +79,8 @@
 
 	```
 	
-	+ [Pyserial](https://pypi.python.org/pypi/pyserial/2.7): https://pypi.python.org/pypi/pyserial/2.7. 
+	+ [Pyserial](https://pypi.python.org/pypi/pyserial/2.7): https://pypi.python.org/pypi/pyserial/2.7
+	
 	Có thể sử dụng lệnh cài đặt:
 	
 	```bash
@@ -86,7 +90,8 @@
 	```
 
 	+ [Sdk1.0.0 v0.22 ESP8266 V1 firmware](http://esp8266.ru/download/esp8266-firmware/AT22SDK100-2015-03-20-boot1.2.bin): http://esp8266.ru/download/esp8266-firmware/AT22SDK100-2015-03-20-boot1.2.bin
-	(được file có tên `AT22SDK100-2015-03-20-boot1.2.bin`).
+	
+	Được file có tên `AT22SDK100-2015-03-20-boot1.2.bin`.
 
 * Thực hiện nạp firmware cho ESP8266 V1 trên hệ điều hành Ubuntu:
 
