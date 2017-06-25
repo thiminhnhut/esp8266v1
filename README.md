@@ -63,31 +63,31 @@
 	
 		Có thể sử dụng lệnh cài đặt:
 
-	```bash
+		```bash
 
-	$ sudo apt-get install python-pip
+		$ sudo apt-get install python-pip
 
-	```
+		```
 
 	+ [esptool](https://pypi.python.org/pypi/esptool): https://pypi.python.org/pypi/esptool
 	
 		Có thể sử dụng lệnh cài đặt:
 
-	```bash
+		```bash
 
-	sudo pip install esptool
+		sudo pip install esptool
 
-	```
+		```
 	
 	+ [Pyserial](https://pypi.python.org/pypi/pyserial/2.7): https://pypi.python.org/pypi/pyserial/2.7
 	
 		Có thể sử dụng lệnh cài đặt:
 	
-	```bash
+		```bash
 	
-	$ sudo pip install pyserial
+		$ sudo pip install pyserial
 	
-	```
+		```
 
 	+ [Sdk1.0.0 v0.22 ESP8266 V1 firmware](http://esp8266.ru/download/esp8266-firmware/AT22SDK100-2015-03-20-boot1.2.bin): http://esp8266.ru/download/esp8266-firmware/AT22SDK100-2015-03-20-boot1.2.bin
 	
@@ -98,15 +98,15 @@
 	+ Tạo thưc mục `esptool-master` và di chuyển file `AT22SDK100-2015-03-20-boot1.2.bin`
 	đến thư mục `esptool-master` vừa tạo và đổi tên thành `AT22SDK10020150320boot12.bin`:
 	
-	```bash
+		```bash
 	
-	$ cd
-	
-	$ mkdir esptool-master
-	
-	$ mv Downloads/AT22SDK100-2015-03-20-boot1.2.bin esptool-master/AT22SDK10020150320boot12.bin
-	
-	```
+		$ cd
+		
+		$ mkdir esptool-master
+		
+		$ mv Downloads/AT22SDK100-2015-03-20-boot1.2.bin esptool-master/AT22SDK10020150320boot12.bin
+		
+		```
 	
 	+ Tìm tên port kết nối giữa Arduino Uno và máy tính: mở Arduino IDE để xem (vào Tools)
 	hoặc sử dụng lệnh `ls /dev/tty*`. Ví dụ tên cổng kết nối là `ttyACM0`.
