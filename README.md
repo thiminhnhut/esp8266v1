@@ -10,6 +10,10 @@
 
 2. [Amith MP - Connecting ESP8266-01 to Arduino UNO/ MEGA and BLYNK](https://www.instructables.com/id/Connecting-ESP8266-01-to-Arduino-UNOMEGA-and-BLYNK/)
 
+3. [Connect to ESP8266 ONLY using Arduino Uno](https://forum.arduino.cc/index.php?topic=283043.0)
+
+4. [Arduino to ESP8266 By Serial Communication](http://www.martyncurrey.com/arduino-to-esp8266-serial-commincation/)
+
 ## Sơ đồ và chức năng của các chân trên module WiFi ESP8266 V1
 
 * Sơ đồ chân:
@@ -117,7 +121,7 @@
 	
 		```bash
 		
-		$ sudo python esptool.py --port /dev/ttyACM0 erase_flash
+		$ sudo esptool.py --port /dev/ttyACM0 erase_flash
 		
 		```
 	
@@ -125,19 +129,29 @@
 	
 		```bash
 		
-		esptool.py v1.2.1
+		esptool.py v2.0
 		
-		Connecting…
+		Connecting........
 		
-		Running Cesanta flasher stub…
+		Detecting chip type... ESP8266
 		
-		Erasing flash (this may take a while)…
+		Chip is ESP8266
 		
-		Erase took 0.9 seconds
+		Uploading stub...
+		
+		Running stub...
+		
+		Stub running...
+		
+		Erasing flash (this may take a while)...
+		
+		Chip erase completed successfully in 3.1s
+		
+		Hard resetting...
 		
 		```
 	
-		- Nếu xuất hiện lỗi thì rút cáp ra và kết nối lại để module ESP8266 reset.
+		- Nếu xuất hiện lỗi thì rút cáp ra và kết nối lại để module ESP8266 V1 reset.
 		Đợi 5s và lặp lại lệnh trên.
 		
 	+ Nạp firmware cho ESP8266 V1:
@@ -148,7 +162,43 @@
 		
 		```bash
 		
-		$ sudo python esptool.py --port /dev/ttyACM0 write flash 0x00000 AT22SDK10020150320boot12.bin
+		$ sudo esptool.py --port /dev/ttyACM0 write_flash 0x00000 AT22SDK10020150320boot12.bin
+		
+		```
+		
+		- Xuất hiện thông báo tương tự như sau:
+	
+		```bash
+		
+		esptool.py v2.0
+		
+		Connecting....
+		
+		Detecting chip type... ESP8266
+		
+		Chip is ESP8266
+		
+		Uploading stub...
+		
+		Running stub...
+		
+		Stub running...
+		
+		Configuring flash size...
+		
+		Auto-detected Flash size: 1MB
+		
+		Flash params set to 0x0020
+		
+		Compressed 520192 bytes to 172469...
+		
+		Wrote 520192 bytes (172469 compressed) at 0x00000000 in 15.0 seconds (effective 277.9 kbit/s)...
+		
+		Hash of data verified.
+		
+		Leaving...
+		
+		Hard resetting...
 		
 		```
 		
