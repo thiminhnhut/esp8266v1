@@ -4,6 +4,10 @@
 
 * **Thời gian:** Ngày 01 tháng 07 năm 2017
 
+## Nguồn tham khảo
+
+* [CORDOBO - Flash ESP8266-01 with Arduino Uno](http://cordobo.com/2300-flash-esp8266-01-with-arduino-uno/)
+
 ## Các bước thực hiện:
 
 * Thực hiện kết nối module WiFi ESP8266 V1 và Arduino Uno như sơ đồ bên dưới:

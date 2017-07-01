@@ -4,6 +4,14 @@
 
 * **Thời gian:** Ngày 01 tháng 07 năm 2017
 
+## Nguồn tham khảo
+
+1. [Amith MP - Connecting ESP8266-01 to Arduino UNO/ MEGA and BLYNK](https://www.instructables.com/id/Connecting-ESP8266-01-to-Arduino-UNOMEGA-and-BLYNK/)
+
+2. [Connect to ESP8266 ONLY using Arduino Uno](https://forum.arduino.cc/index.php?topic=283043.0)
+
+3. [Arduino to ESP8266 By Serial Communication](http://www.martyncurrey.com/arduino-to-esp8266-serial-commincation/)
+
 ## Các bước thực hiện:
 
 * Thực hiện kết nối module WiFi ESP8266 V1 và Arduino Uno như sơ đồ bên dưới:
