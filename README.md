@@ -43,7 +43,7 @@
 
 ## Sử dụng Arduino Uno để nạp firmware cho module thu phát WiFi ESP8266 V1
 
-[Xem hướng dẫn thực hiện.](https://github.com/thiminhnhut/esp8266v1/tree/1eb1297e95e4147c942ff45706b62c2c352c5014/diagram-wire/upload-firmware)
+[Xem hướng dẫn thực hiện.](https://github.com/thiminhnhut/esp8266v1/tree/cbbdf6947f443bad0e9579f01b98c3fde45db043/diagram-wire/upload-firmware)
 
 ## Kết nối module thu phát WiFi ESP8266 V1 với Arduino Uno
 
