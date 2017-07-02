@@ -11,6 +11,21 @@
 ## Các bước thực hiện:
 
 * Thực hiện kết nối module WiFi ESP8266 V1 và Arduino Uno như sơ đồ bên dưới:
+	
+	+ **Lưu ý:** Nếu không kết nối chân `RESET` với `GND` thì sử dụng Arduino IDE nạp code rỗng
+	cho Arduino Uno thì khi đó mới upload được firmware cho Arduino:
+	
+	```arduino
+	
+	void setup(){
+	
+	}
+	
+	void loop(){
+	
+	}
+	
+	```
 
 	+ File Fritzing: [upload-firmware-esp8266v1.fzz](https://github.com/thiminhnhut/esp8266v1/blob/e32ac07e5e60ad408d3db009c4304f8301a8b8bd/diagram-wire/upload-firmware/upload-firmware-esp8266v1.fzz)
 
