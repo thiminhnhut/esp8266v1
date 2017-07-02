@@ -2,7 +2,7 @@
 
 * **Thực hiện:** Thi Minh Nhựt - **Email:** thiminhnhut@gmail.com
 
-* **Thời gian:** Ngày 01 tháng 07 năm 2017
+* **Thời gian:** Ngày 02 tháng 07 năm 2017
 
 ## Nguồn tham khảo
 
@@ -60,14 +60,14 @@
 	
 		```
 
-	+ [Sdk1.0.0 v0.22 ESP8266 V1 firmware](http://esp8266.ru/download/esp8266-firmware/AT22SDK100-2015-03-20-boot1.2.bin): http://esp8266.ru/download/esp8266-firmware/AT22SDK100-2015-03-20-boot1.2.bin
+	+ [ESP8266 V1 firmware](https://github.com/thiminhnhut/esp8266v1/blob/45adc9adb733d796801b79265804057a7ef4552c/firmware/ESP8266_AT_V00180902_04.bin)
 	
-	Được file có tên `AT22SDK100-2015-03-20-boot1.2.bin`.
+	Được file có tên `ESP8266_AT_V00180902_04.bin`.
 
 * Thực hiện nạp firmware cho ESP8266 V1 trên hệ điều hành Ubuntu:
 
-	+ Tạo thưc mục `esptool-master` và di chuyển file `AT22SDK100-2015-03-20-boot1.2.bin`
-	đến thư mục `esptool-master` vừa tạo và đổi tên thành `AT22SDK10020150320boot12.bin`:
+	+ Tạo thưc mục `esptool-master` và di chuyển file `ESP8266_AT_V00180902_04.bin`
+	đến thư mục `esptool-master`:
 	
 		```bash
 	
@@ -75,7 +75,7 @@
 		
 		$ mkdir esptool-master
 		
-		$ mv Downloads/AT22SDK100-2015-03-20-boot1.2.bin esptool-master/AT22SDK10020150320boot12.bin
+		$ mv Downloads/ESP8266_AT_V00180902_04.bin esptool-master/
 		
 		```
 	
@@ -98,7 +98,7 @@
 		
 		esptool.py v2.0
 		
-		Connecting........
+		Connecting....
 		
 		Detecting chip type... ESP8266
 		
@@ -112,7 +112,7 @@
 		
 		Erasing flash (this may take a while)...
 		
-		Chip erase completed successfully in 3.1s
+		Chip erase completed successfully in 2.8s
 		
 		Hard resetting...
 		
@@ -129,7 +129,7 @@
 		
 		```bash
 		
-		$ sudo esptool.py --port /dev/ttyACM0 write_flash 0x00000 AT22SDK10020150320boot12.bin
+		$ sudo esptool.py --port /dev/ttyACM0 write_flash 0x00000 ESP8266_AT_V00180902_04.bin
 		
 		```
 		
@@ -157,15 +157,17 @@
 		
 		Flash params set to 0x0020
 		
-		Compressed 520192 bytes to 172469...
+		Compressed 520192 bytes to 135542...
 		
-		Wrote 520192 bytes (172469 compressed) at 0x00000000 in 15.0 seconds (effective 277.9 kbit/s)...
+		Wrote 520192 bytes (135542 compressed) at 0x00000000 in 11.9 seconds (effective 348.8 kbit/s)...
 		
 		Hash of data verified.
 		
+
 		Leaving...
 		
 		Hard resetting...
+
 		
 		```
 		
