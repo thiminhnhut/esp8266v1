@@ -47,4 +47,4 @@
 
 ## Kết nối module thu phát WiFi ESP8266 V1 với Arduino Uno
 
-[Xem hướng dẫn thực hiện.](https://github.com/thiminhnhut/esp8266v1/tree/1eb1297e95e4147c942ff45706b62c2c352c5014/diagram-wire/connect-esp8266v1)
+[Xem hướng dẫn thực hiện.](https://github.com/thiminhnhut/esp8266v1/tree/c8b25591c688ac63b00d9c03be28e573bfbdf3fb/diagram-wire/connect-esp8266v1)
