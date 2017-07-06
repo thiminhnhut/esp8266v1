@@ -2,7 +2,7 @@
 
 * **Thực hiện:** Thi Minh Nhựt - **Email:** thiminhnhut@gmail.com
 
-* **Thời gian:** Ngày 01 tháng 07 năm 2017
+* **Thời gian:** Ngày 07 tháng 07 năm 2017
 
 ## Nguồn tham khảo
 
@@ -15,13 +15,26 @@
 ## Các bước thực hiện:
 
 * Thực hiện kết nối module WiFi ESP8266 V1 và Arduino Uno như sơ đồ bên dưới:
+	
+	+ Giao tiếp cứng:
+		- File Fritzing: [connect-esp8266v1.fzz](https://github.com/thiminhnhut/esp8266v1/blob/7bb52480c29d8cf17d14c7c7b884badafb029f14/diagram-wire/connect-esp8266v1/connect-esp8266v1.fzz)
 
-	+ File Fritzing: [connect-esp8266v1.fzz](https://github.com/thiminhnhut/esp8266v1/blob/e32ac07e5e60ad408d3db009c4304f8301a8b8bd/diagram-wire/connect-esp8266v1/connect-esp8266v1.fzz)
+		- Mạch kết nối trên Breadboard:
+	
+		![Kết nối ESP8266 V1 với Arduino Uno](https://raw.githubusercontent.com/thiminhnhut/esp8266v1/7bb52480c29d8cf17d14c7c7b884badafb029f14/diagram-wire/connect-esp8266v1/connect-esp8266v1_bb.png)
+	
+		- Mạch nguyên lý schematic:
+	
+		![Kết nối ESP8266 V1 với Arduino Uno](https://raw.githubusercontent.com/thiminhnhut/esp8266v1/7bb52480c29d8cf17d14c7c7b884badafb029f14/diagram-wire/connect-esp8266v1/connect-esp8266v1_schem.png)
 
-	+ Mạch kết nối trên Breadboard:
+	+ Giao tiếp mềm:
 	
-	![Kết nối ESP8266 V1 với Arduino Uno](https://raw.githubusercontent.com/thiminhnhut/esp8266v1/e32ac07e5e60ad408d3db009c4304f8301a8b8bd/diagram-wire/connect-esp8266v1/connect-esp8266v1_bb.png)
+		- File Fritzing: [connect-esp8266v1-software.fzz](https://github.com/thiminhnhut/esp8266v1/blob/7bb52480c29d8cf17d14c7c7b884badafb029f14/diagram-wire/connect-esp8266v1/connect-esp8266v1-software.fzz)
+
+		- Mạch kết nối trên Breadboard:
 	
-	+ Mạch nguyên lý schematic:
+		![Kết nối ESP8266 V1 với Arduino Uno](https://raw.githubusercontent.com/thiminhnhut/esp8266v1/7bb52480c29d8cf17d14c7c7b884badafb029f14/diagram-wire/connect-esp8266v1/connect-esp8266v1-software_bb.png)
 	
-	![Kết nối ESP8266 V1 với Arduino Uno](https://github.com/thiminhnhut/esp8266v1/blob/e32ac07e5e60ad408d3db009c4304f8301a8b8bd/diagram-wire/connect-esp8266v1/connect-esp8266v1_schem.png)
+		- Mạch nguyên lý schematic:
+	
+		![Kết nối ESP8266 V1 với Arduino Uno](https://raw.githubusercontent.com/thiminhnhut/esp8266v1/7bb52480c29d8cf17d14c7c7b884badafb029f14/diagram-wire/connect-esp8266v1/connect-esp8266v1_schem.png)
