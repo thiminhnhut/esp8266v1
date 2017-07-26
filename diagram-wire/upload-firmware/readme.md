@@ -27,15 +27,15 @@
 	
 	```
 
-	+ File Fritzing: [upload-firmware-esp8266v1.fzz](https://github.com/thiminhnhut/esp8266v1/blob/e32ac07e5e60ad408d3db009c4304f8301a8b8bd/diagram-wire/upload-firmware/upload-firmware-esp8266v1.fzz)
+	+ File Fritzing: [upload-firmware-esp8266v1.fzz](https://github.com/thiminhnhut/esp8266v1/blob/50cfde6241e0895ef49c8941e4366cbaa2b29848/diagram-wire/upload-firmware/upload-firmware-esp8266v1.fzz)
 
 	+ Mạch kết nối trên Breadboard:
 	
-	![Upload firmware ESP8266 V1 với Arduino Uno](https://raw.githubusercontent.com/thiminhnhut/esp8266v1/e32ac07e5e60ad408d3db009c4304f8301a8b8bd/diagram-wire/upload-firmware/upload-firmware-esp8266v1_bb.png)
+	![Upload firmware ESP8266 V1 với Arduino Uno](https://raw.githubusercontent.com/thiminhnhut/esp8266v1/50cfde6241e0895ef49c8941e4366cbaa2b29848/diagram-wire/upload-firmware/upload-firmware-esp8266v1_bb.png)
 	
 	+ Mạch nguyên lý schematic:
 	
-	![Upload firmware ESP8266 V1 với Arduino Uno](https://raw.githubusercontent.com/thiminhnhut/esp8266v1/e32ac07e5e60ad408d3db009c4304f8301a8b8bd/diagram-wire/upload-firmware/upload-firmware-esp8266v1_schem.png)
+	![Upload firmware ESP8266 V1 với Arduino Uno](https://raw.githubusercontent.com/thiminhnhut/esp8266v1/50cfde6241e0895ef49c8941e4366cbaa2b29848/diagram-wire/upload-firmware/upload-firmware-esp8266v1_schem.png)
 
 * Các phần mềm cần chuẩn bị cho quá trình nạp firmware cho ESP8266 V1 trên hệ điều hành Ubuntu:
 
